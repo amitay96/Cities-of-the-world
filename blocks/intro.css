@@ -1,0 +1,30 @@
+.intro {
+    max-width: calc(100% - 495px);
+    margin-left: 11%;
+}
+
+.intro__title {
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 107%;
+    margin: 9% auto 5%;
+}
+
+.intro__subtitle {
+    max-width: calc(100% - 65px);
+    font-size: 24px;
+    line-height: 142%;
+    font-weight: 400;
+    margin-bottom: 1%;
+}
+
+.intro__subtitle-quote {
+    margin-right: 65px;
+    text-align: right;
+    display: block;
+}
+
+.intro__text {
+    max-width: calc(100% - 65px);
+    line-height: 163%;
+}
