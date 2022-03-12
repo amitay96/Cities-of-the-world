@@ -1,0 +1,14 @@
+.cover {
+    margin: 0 48px;
+    height: 740px;
+    background: url("../images/__background.jpg");
+    background-size: cover;
+}
+
+.cover:hover {
+    opacity: 0.3;
+}
+
+.cover__content {
+    margin: 0 auto;
+}
