@@ -1,0 +1,13 @@
+.button {
+    background: #0278fe;
+    border-radius: 4px;
+    color: white;
+    padding: 13px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 248px;
+    max-height: 22px;
+    text-align: center;
+    text-decoration: none;
+}

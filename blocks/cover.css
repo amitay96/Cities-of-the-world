@@ -3,12 +3,39 @@
     height: 740px;
     background: url("../images/__background.jpg");
     background-size: cover;
+    opacity: 1;
+    transition: opacity .5s  ;
 }
 
 .cover:hover {
-    opacity: 0.3;
+   opacity: .3;
 }
 
 .cover__content {
+    text-align: center;
+    position: relative;
+    top: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
     margin: 0 auto;
+    border: 1px blue solid;
+}
+
+.cover__title {
+    margin: 0;
+    color: #FFFDFD;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 106%;
+}
+
+.cover__subtitle {
+    font-size: 18px;
+    line-height: 122%;
+}
+
+.cover__button {
+    margin-top: 13px;
 }
