@@ -1,73 +1,19 @@
 .places {
-    padding: 92px 148px 92px 145px;
-    width: calc(100% - (148+145)px);
+    margin: 92px auto;
+    max-width: 987px;
     font-size: 18px;
-}
-
-.place {
-    border: 1px solid red;
-    display: grid;
-    grid-template-rows: auto auto 1fr;
-    grid-template-areas: 
-        "title artist"
-        "image content"
-        "button content";
-    grid-gap: 48px 40px;
-    margin-bottom: 80px;
-}
-
-.place:last-of-type {
-    margin-bottom: 0;
-}
-
-.place__title {
-    grid-area: "title";
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 106%;
-    max-width: 460px;
-    width: 100%;
-    margin: 0;
-}
-
-.place__website {
-    grid-area: "artist";
-    max-width: 456px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    gap: 80px;
 }
 
-.website__url-heading {
-    color: #AAAAAA;
-    text-decoration: none;
+@media screen and (max-width: 400px) {
+    .places {
+        
+    }
 }
-
-.website__artist {
-    margin: 0;
-}
-
-.place__image {
-    grid-area: "image";
-    max-width: 1fr;
-    width: 100%;
-}
-
-.place__content {
-    grid-area: "content";
-    
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
-
-.place__paragraph {
-    padding: 0;
-    margin: 0;
-    max-width: 484px;
-    line-height: 163%;
-}
-
-.place__button {
-    grid-area: "button";
-}
+/*@media screen and (max-width: 600px) {
+    .places {
+        margin: 0 24px 105px;
+    }
+}*/

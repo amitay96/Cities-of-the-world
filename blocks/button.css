@@ -11,3 +11,8 @@
     text-align: center;
     text-decoration: none;
 }
+
+.button:hover {
+    background: #0063D2;
+    
+}
