@@ -1,37 +1,37 @@
 .page {
     margin: 0 auto;
     background-color: #2A2C2F;
-    position: relative;
     box-sizing: border-box;
-    padding: 34px 48px 24px;
+    padding: 0;
     max-width: 1280px;
-    min-width: 320px;
     font-family: "Inter", Arial, sans-serif;
-    font-weight: normal;
-    font-style: normal;
     font-size: 16px;
     color: #FFF;
+    text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
-    text-rendering: optimizeLegibility;
+    
 }
 
 @media screen and (max-width: 960px) {
     .page {
-      padding: 34px 24px 24px;
+      max-width: 960px;
+      margin: 34px auto 24px;
     }
-  }
+  } 
   
   @media screen and (max-width: 600px) {
     .page {
-      padding: 34px 16px 24px;    
+      margin: 20px auto 24px;
+      max-width: 600px;
     }
   }
-  @media screen and (max-width: 600px) {
+  /* @media screen and (max-width: 320px) {
     .page {
+      max-width: 320px;
       padding: 34px 0px 24px;    
-    }
-  }
+    } 
+  } */

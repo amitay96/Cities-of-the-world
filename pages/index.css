@@ -1,6 +1,7 @@
 @import url("../fonts/fonts.css");
 @import url("../vendor/normalize.css");
 @import url("../blocks/page.css");
+@import url("../blocks/body.css");
 @import url("../blocks/line-break.css");
 @import url("../blocks/logo.css");
 @import url("../blocks/lead.css");
@@ -11,7 +12,3 @@
 @import url("../blocks/place.css");
 @import url("../blocks/cover.css");
 @import url("../blocks/footer.css");
-
-html{
-    background-color: red;
-}

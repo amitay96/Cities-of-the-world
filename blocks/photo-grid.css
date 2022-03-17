@@ -14,7 +14,7 @@
     padding: 0;
 }
 
-.photo-grid__list-item {
+.photo-grid__list-image {
     width: 100%;
 }
 
@@ -23,13 +23,18 @@
         max-width: calc(100% - 48px);
         margin: 0 24px 88px;
     }
+    .photo-grid__list {
+        grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+    }
 }
 
-@media screen and (max-width: 615px) {  
+@media screen and (max-width: 600px) {  
     .photo-grid {
-        gap: 12px;
         max-width: calc(100% - 32px);
         margin: 0 16px 62px;
     }
-    
+    .photo-grid__list {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
 }

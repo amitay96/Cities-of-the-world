@@ -57,11 +57,13 @@
 }
 
 .place__button {
-    max-width: 248px;
+    max-width: 208px;
 }
 
 @media screen and (max-width: 960px) {
     .place {
+        grid-template-columns: 1fr 1fr;
+        padding: 0 24px;
         column-gap: 28px;
     }
     .place__title {
@@ -76,20 +78,10 @@
 
 @media screen and (max-width: 720px) {
     .place {
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
-    }
-    .place__content {
-        max-width: 100%;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .place {
-      display: flex;
-      flex-direction: column;
-      gap: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 0;
     }
     .place__title {
         padding: 0 16px;
@@ -98,18 +90,16 @@
         padding: 0 16px;
     }
     .place__content{
-       padding: 0 16px;
+        padding: 0 16px;
+        max-width: 100%;
     }
     .place__button {
-        width: 100%;
         margin: 0 auto;
+        max-width: 100%;
     }
   }
 
 @media screen and (max-width: 320px) {
-    .place {
-        width: 100%;
-    }
     .place__title {
         font-size: 32px;
         line-height: 1.1;
@@ -119,16 +109,9 @@
         font-size: 18px;
         line-height: 1.22;
     }
-  
-    .place__image {
-        position: relative;
-        width: 100%;
-    }
 
     .place__button {
-        
         font-size: 18px;
         line-height: 1.22;
     }
-  
-  }
+}

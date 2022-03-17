@@ -1,18 +1,24 @@
 .button {
     background: #0278fe;
     border-radius: 4px;
-    color: white;
+    color: #FFF;
     padding: 13px 20px;
-    font-weight: 600;
     font-size: 18px;
-    line-height: 22px;
-    max-width: 248px;
+    line-height: 1.22; 
+    font-weight: 600;
     max-height: 22px;
     text-align: center;
     text-decoration: none;
+    transition-duration: 0.7s;
+    margin: 0;
 }
 
 .button:hover {
     background: #0063D2;
-    
 }
+/* 
+@media screen and (max-width: 600px) {
+    .button {
+        max-width: a;
+    }
+} */
