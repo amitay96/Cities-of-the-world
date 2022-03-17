@@ -23,6 +23,7 @@
         max-width: calc(100% - 48px);
         margin: 0 24px 88px;
     }
+
     .photo-grid__list {
         grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
     }
@@ -33,6 +34,7 @@
         max-width: calc(100% - 32px);
         margin: 0 16px 62px;
     }
+    
     .photo-grid__list {
         grid-template-columns: 1fr;
         gap: 12px;

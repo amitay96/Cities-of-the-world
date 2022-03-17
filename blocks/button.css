@@ -15,10 +15,4 @@
 
 .button:hover {
     background: #0063D2;
-}
-/* 
-@media screen and (max-width: 600px) {
-    .button {
-        max-width: a;
-    }
-} */
+} 

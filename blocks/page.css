@@ -12,8 +12,7 @@
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    
+    -moz-text-size-adjust: 100%;  
 }
 
 @media screen and (max-width: 960px) {
@@ -29,9 +28,3 @@
       max-width: 600px;
     }
   }
-  /* @media screen and (max-width: 320px) {
-    .page {
-      max-width: 320px;
-      padding: 34px 0px 24px;    
-    } 
-  } */

@@ -42,20 +42,20 @@
     .lead__subtitle {
         margin: 32px auto 64px;
     }
-    
 }
-
 
 @media screen and (max-width: 600px) {
     .lead{
         max-width: 600px;
         margin: 50.15px auto 40px;
     }
+
     .lead__title{
         font-size: 40px;
         line-height: 1.1;
         margin: 0 auto;
     }
+    
     .lead__subtitle {
         font-size: 16px;
         line-height: 1.25;
