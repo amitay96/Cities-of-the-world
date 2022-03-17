@@ -6,6 +6,7 @@
   }
   
   .cover__content {
+    margin: 0;
     background: url("../images/background.jpg") center no-repeat;
     background-size: cover;
     text-align: center;
@@ -16,12 +17,14 @@
     gap: 32px;
     width: 100%;
     min-height: 740px;
+    text-decoration: none;
+    color: #FFF;
 }
 
-.cover__content::after {
+.cover__content::before {
     content: "";
-    max-height: 100%;
-    max-width: 100%;
+    height: 100%;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -30,7 +33,7 @@
     transition: opacity .5s;
 }
 
-.cover__content:hover::after {
+.cover__content:hover::before {
     opacity: 0.8;
 }
 
@@ -40,7 +43,7 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 1.06;
-    z-index: 1;
+    z-index: 2;
 }
 
 .cover__subtitle {
