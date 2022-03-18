@@ -1,6 +1,6 @@
 .lead {
     padding: 0;
-    margin: 91px auto 92px;
+    margin: 90px auto 92px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 600px) {
     .lead{
-        margin: 50.15px auto 40px;
+        margin: 50.15px auto 64px;
     }
 
     .lead__title{

@@ -19,6 +19,7 @@
 }
 
 .intro__quote-author {
+    max-width: 720px;
     font-size: 24px;
     margin: 0;
     display: flex;
@@ -34,13 +35,14 @@
 
 @media all and (max-width: 960px) {
     .intro {
-        margin: 88px 24px 90px;
+        margin: 0 24px 90px;
     }
 }
 @media all and (max-width: 600px){
     .intro {
-        margin: 64px 16px 90px;
+        margin: 0 16px 90px;
     }
+
     .intro__title {
         font-size: 32px;
         line-height: 1.09;
