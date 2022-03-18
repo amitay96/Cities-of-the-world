@@ -1,57 +1,56 @@
 .cover {
-    margin: 48 auto;
-    position: relative;
-    max-width: calc(100% - 48px);
-    min-height: 740px;
-    margin: 0 auto;
-    background: url("../images/background.jpg") center no-repeat;
-    background-size: cover;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
-    text-decoration: none;
-    color: #FFF;
-  }
+  margin: 0 auto;
+  position: relative;
+  max-width: calc(100% - 48px);
+  min-height: 740px;
+  background: url("../images/background.jpg") center no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  text-decoration: none;
+  color: #FFF;
+}
 
 .cover::before {
-    content: "";
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #2A2C2F;
-    opacity: 0.3;
-    transition: opacity .5s;
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  transition: opacity .5s;
 }
 
 .cover:hover::before {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 .cover__title {
-    margin: 0;
-    color: #FFFDFD;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 1.06;
-    z-index: 2;
+  margin: 0;
+  color: #FFFDFD;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  z-index: 2;
 }
 
 .cover__subtitle {
-    font-size: 18px;
-    line-height: 1.22;
-    z-index: 1;
-    margin: 0;
+  font-size: 18px;
+  line-height: 1.22;
+  z-index: 1;
+  margin: 0;
 }
 
 .cover__button {
-    z-index: 1;
-    cursor: pointer;
-    max-width: 100%;
+  z-index: 1;
+  cursor: pointer;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 960px) {
