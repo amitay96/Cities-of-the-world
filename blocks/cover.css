@@ -1,12 +1,9 @@
 .cover {
-    margin: 0 auto;
+    margin: 48 auto;
     position: relative;
-    max-width: 100%;
-    max-height: 784px;
-  }
-  
-  .cover__content {
-    margin: 0;
+    max-width: calc(100% - 48px);
+    min-height: 740px;
+    margin: 0 auto;
     background: url("../images/background.jpg") center no-repeat;
     background-size: cover;
     text-align: center;
@@ -15,13 +12,11 @@
     align-items: center;
     justify-content: center;
     gap: 32px;
-    width: 100%;
-    min-height: 740px;
     text-decoration: none;
     color: #FFF;
-}
+  }
 
-.cover__content::before {
+.cover::before {
     content: "";
     height: 100%;
     width: 100%;
@@ -33,7 +28,7 @@
     transition: opacity .5s;
 }
 
-.cover__content:hover::before {
+.cover:hover::before {
     opacity: 0.8;
 }
 
@@ -61,7 +56,7 @@
 
 @media screen and (max-width: 960px) {
   .cover {
-    width: 100%;
+    min-width: 100%;
     min-height: 746px;
   }
 }
@@ -69,11 +64,7 @@
 @media screen and (max-width: 600px) {
   .cover {
     min-height: 254px;
-  }
-
-  .cover__content {
     gap: 16px;
-    min-height: 254px;
   }
 
   .cover__title {

@@ -19,6 +19,7 @@
 }
 
 .intro__quote-author {
+    font-size: 24px;
     margin: 0;
     display: flex;
     justify-content: flex-end;
