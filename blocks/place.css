@@ -1,6 +1,6 @@
 .place {
     display: grid;
-    grid-template-columns: minmax(340px, 1fr) 1fr;
+    grid-template-columns: minmax(340px, 460px) 1fr;
     grid-template-rows: auto auto 1fr;
     grid-gap: 48px 40px;
 }
@@ -18,7 +18,6 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    gap: 8px;
 }
 
 .place__url-heading {
@@ -28,7 +27,7 @@
     line-height: 1.25;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    margin: 0;
+    margin: 0 0 8px;
 }
 
 .place__artist {
@@ -74,8 +73,13 @@
     }
 
     .place__content {
-        font-size: 16px;
         max-width: 352px;
+    }
+    .place__paragraph {
+        font-size: 16px;
+    }
+    .place__image {
+        max-width: 340px;
     }
 }
 
